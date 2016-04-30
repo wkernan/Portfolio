@@ -1,0 +1,368 @@
+/** Sticky Footer **/
+
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+
+.footer, .push {
+	height: 4em;
+}
+
+body {
+	background-image: url('../images/random_grey_variations.png');
+}
+
+/** Typography **/
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+p {
+	margin: 10px 0 10px 0;
+	line-height: 35px;
+}
+
+input:focus {
+	outline: #4aaaa5 auto 5px;
+}
+
+textarea:focus {
+	outline: #4aaaa5 auto 5px;
+}
+
+.center {
+	text-align: center;
+}
+
+nav h2 {
+	display: inline-block;
+	padding: 10px;
+	background-color: #4aaaa5;
+	margin: 0;
+	color: white;
+}
+
+header h2 {
+	font-weight: bold;
+	color: #4aaaa5;
+	margin: 13px 0 17px 0;
+}
+
+header h4 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #4aaaa5;
+	margin-top: 0;
+	margin-bottom: 13px;
+}
+
+/** Navbar **/
+
+.navbar-brand {
+	font-size: 40px;
+}
+
+/*nav {
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	background-color: #ffffff;
+	padding-top: 0;
+	border-bottom: 2px solid #cccccc;
+}*/
+
+.navli {
+	display: inline;
+	border-right: 2px solid #EAEAEA;
+}
+
+.navli:last-child {
+	border-right: none;
+}
+
+.main {
+	padding-top: 60px;
+}
+
+.links {
+	margin-top: 20px;
+	float: right;
+}
+
+.right {
+	color: #777777;
+	padding: 15px 0 15px 15px;
+	text-decoration: none;
+}
+
+.link {
+  color: #777777;
+  padding: 20px 15px 20px 15px;
+  text-decoration: none;
+}
+a:hover {
+	color: #4aaaa5;
+}
+
+.active {
+	color: #49AAA5;
+}
+
+/** General **/
+
+/*.top {
+	height: 50px;
+	width: 50px;
+  position: fixed;
+  bottom: 104px;
+  right: 160px;
+  border-radius: 3px;
+  background: #FFFFFF;
+  text-align: center;
+  font-size: 45px;
+  color: #4aaaa5;
+}*/
+
+a.top:hover {
+	color: #666666;
+}
+
+.tooltip {
+  position: fixed;
+  display: inline-block;
+  bottom: 185px;
+  right: 235px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: #4aaaa5;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:focus, a:focus {
+	outline: none;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.line {
+	border-bottom: 2px solid #EAEAEA;
+}
+
+.line-dark {
+	border-bottom: 2px solid #cccccc;
+}
+
+.about {
+	border-radius: 3px;
+  background-color: white;
+}
+
+.about img {
+	border-radius: 3px;
+	float: left;
+	margin: 20px 10px 10px 0;
+}
+
+.span {
+	color: #4aaaa5;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.span:hover {
+	color: #777777;
+}
+
+.connect {
+	border-radius: 3px;
+  background-color: white;
+  text-align: center;
+  margin-top: 13px;
+}
+
+.tilt {
+	display: inline-block;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.tilt:hover {
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+.connect ul {
+	margin: 15px 0 15px 0;
+  padding: 0;
+}
+
+.connect li {
+  margin: 0 4px 0 4px;
+  display: inline;
+}
+
+.connect img {
+  height: 50px;
+  width: 50px;
+}
+
+.footer {
+	clear: both;
+  border-top: 4px solid #49AAA5;
+  height: 65px;
+  background-color: #666666;
+}
+
+.footer p {
+  font-size: 12px;
+  color: #EEEEEE;
+  margin-top: 0;
+  padding-top: 15px;
+}
+
+/** Contact Page **/
+
+.form-group {
+	margin-top: 20px;
+}
+
+input {
+	width: 575px;
+	height: 22px;
+	margin-top: 5px;
+	padding: 6px;
+	font-size: 13px;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+}
+
+textarea {
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+	margin-top: 5px;
+	width: 576px;
+	height: 250px;
+	padding: 6px;
+	font-size: 13px;
+}
+
+button {
+	border-radius: 3px;
+	margin-top: 15px;
+	color: white;
+	font-size: 15px;
+	background-color: #49AAA5;
+	border: none;
+	width: 95px;
+	height: 35px;
+}
+
+button:focus {
+	outline: none;
+}
+
+button:hover {
+	background-color: #666666;
+	cursor: pointer;
+}
+
+/** Portfolio Page **/
+
+.portfolio {
+	border-radius: 3px;
+  margin: 35px 20px 35px 0;
+  padding: 20px 30px 20px 30px;
+  background-color: white;
+  float: left;
+  display: block;
+  width: 590px;
+  margin-right: 0;
+}
+
+.row {
+	width: 100%;
+}
+
+.tnail {
+	margin: 30px 0 15px 0;
+	float: left;
+	position: relative;
+}
+
+.rightnail {
+	margin-right: 30px;
+}
+
+.highlite {
+	position: absolute;
+	color: white;
+  padding-top: 20px;
+  bottom: 10px;
+  height: 40px;
+  background: #4EAAA5;
+  width: 280px;
+  text-align: center;
+}
+
+.grow {
+	border-radius: 3px;
+	height: 175px;
+	width: 280px;
+	overflow: hidden;
+}
+
+.grow img {
+	overflow: hidden;
+  height: 175px;
+  width: 280px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.grow img:hover {
+  width: 380px;
+  height: 275px;
+}
