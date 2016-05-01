@@ -79,18 +79,14 @@ header h4 {
 
 /** Navbar **/
 
-.navbar-brand {
-	font-size: 40px;
-}
-
-/*nav {
+nav {
 	position: fixed;
 	width: 100%;
 	z-index: 100;
 	background-color: #ffffff;
 	padding-top: 0;
 	border-bottom: 2px solid #cccccc;
-}*/
+}
 
 .navli {
 	display: inline;
@@ -103,6 +99,12 @@ header h4 {
 
 .main {
 	padding-top: 60px;
+}
+
+.container {
+	max-width: 960px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .links {
@@ -131,7 +133,7 @@ a:hover {
 
 /** General **/
 
-/*.top {
+.top {
 	height: 50px;
 	width: 50px;
   position: fixed;
@@ -142,7 +144,7 @@ a:hover {
   text-align: center;
   font-size: 45px;
   color: #4aaaa5;
-}*/
+}
 
 a.top:hover {
 	color: #666666;
@@ -187,7 +189,13 @@ a.top:hover {
 
 .about {
 	border-radius: 3px;
+  margin: 35px 20px 35px 0;
+  padding: 20px 30px 20px 30px;
   background-color: white;
+  float: left;
+  display: block;
+  width: 590px;
+  margin-right: 0;
 }
 
 .about img {
@@ -208,9 +216,13 @@ a.top:hover {
 
 .connect {
 	border-radius: 3px;
+  margin: 35px 0 20px 20px;
+  padding: 15px;
   background-color: white;
+  float: right;
+  display: block;
+  width: 240px;
   text-align: center;
-  margin-top: 13px;
 }
 
 .tilt {
