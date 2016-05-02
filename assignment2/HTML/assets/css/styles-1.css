@@ -460,9 +460,10 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 .skills-item p{
+    color: white;
     position: absolute;
     width: 100%;
-    bottom: -40px;
+    bottom: -13px;
     text-align: center;
 }
 
@@ -1081,9 +1082,24 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     transition:all .3s ease-out;
 }
 
-.social-links li a:hover {
+.social-links li  a#sl-twitter:hover {
     color:#fff;
     background:#11B2D2
+}
+
+.social-links li a#sl-fbook:hover {
+    color:#fff;
+    background: #3B5998;
+}
+
+.social-links li a#sl-soverflow:hover {
+    color:#fff;
+    background: #F48024;
+}
+
+.social-links li a#sl-linkedin:hover {
+    color:#fff;
+    background:#1A84BC;
 }
 
 /*------------------------
