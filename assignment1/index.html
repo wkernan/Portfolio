@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Bill Kernan</title>
 		<link rel="shortcut icon" type="image/x-icon" href="assets/images/coding.ico">
 		<link href="assets/css/reset.css" rel="stylesheet">
@@ -17,7 +18,7 @@
 					</a>
 					<div class="links">
 						<ul class="nav">
-							<li class="navli"><a href="index.html" class="link active">About</a></li>
+							<li class="navli"><a href="index.html" class="link active" id="about">About</a></li>
 							<li class="navli"><a href="portfolio.html" class="link">Portfolio</a></li>
 							<li class="navli"><a href="contact.html" class="right">Contact</a></li>
 						</ul>
@@ -25,9 +26,15 @@
 				</div>
 			</nav>
 			<div class="main container">
+				<div class="tooltip">
+					<a href="#" class="top">
+						<i class="fa fa-caret-up" aria-hidden="true"></i>
+					</a>
+					<span class="tooltiptext">Back To Top</span>
+				</div>
 				<div class="about">
 					<header class="line-dark"><h2>About Me</h2></header>
-					<img src="assets/images/me.jpeg" alt="Bill Kernan">
+					<img src="assets/images/bigme.jpeg" alt="Bill Kernan">
 					<p>I've lived in Austin since 2001. Studied Actuarial Science at the University of Texas from 2004 to 2008. After graduating I became an 8th grade math / algebra teacher and football coach in Austin ISD at Clint Small Middle School. Some hobbies of mine include: running, soccer, primitive camping, disc golf, ultimate, pc modding, gaming and eating.
 					</p>
 					<p>I've always been curious about what makes computers work and more so about how the internet functions. This curiosity led me to teach myself web development. In particular how web apps are created, responsive design, MVC, test driven deployement and what it means to be a full stack developer. I started with Ruby on Rails and built <a href="http://www.continder.com" class="span">continder.com</a> and <a href="http://www.dogecoinhunt.com" class="span">dogecoinhunt.com</a>, since then I've been teaching myself whatever language or library I can get my hands on. A few to note: Javascript, Ruby, Rails, PHP, AngularJS, API's, Git, HTML, CSS, Jade and Stylus.
