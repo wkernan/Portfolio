@@ -470,6 +470,10 @@ button:hover {
 		text-align: center;
 	}
 
+	.main {
+		padding-top: 85px;
+	}
+
 	.connect {
     width: 263px;
     padding: 20px 29px;
