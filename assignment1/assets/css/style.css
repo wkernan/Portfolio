@@ -389,7 +389,29 @@ button:hover {
 		max-width: 640px;
 	}
 
-	.about {
+	.rightnail {
+		margin-right: 0;
+	}
+
+	.tnail {
+		width: 100%;
+	}
+
+	.grow {
+		width: 100%;
+		height: 212px;
+	}
+
+	.grow img {
+		width: 100%;
+		height: 212px;
+	}
+
+	.highlite {
+		width: 100%;
+	}
+
+	.about, .portfolio {
 		max-width: 340px;
 	}
 
@@ -456,10 +478,22 @@ button:hover {
 		padding: 15px 0;
 	}
 
-	.about {
+	.about, .portfolio {
 		max-width: 100%;
 		float: none;
 		padding: 20px 25px;
+	}
+
+	.rightnail {
+		margin-right: 40px;
+	}
+
+	.tnail {
+		width: 275px;
+	}
+
+	.row {
+		height: 260px;
 	}
 
 	.about img {
@@ -482,13 +516,26 @@ button:hover {
 		padding-top: 85px;
 	}
 
+	.grow {
+		width: 263px;
+		height: 164px;
+	}
+
+	.highlite {
+		width: 263px;
+	}
+
+	.row {
+		height: 350px;
+	}
+
 	.connect {
     width: 263px;
     padding: 20px 29px;
     margin: 0px 0 35px 0px;
 	}
 
-	.about {
+	.about, .portfolio {
 		width: 263px;
 		padding: 20px 29px;
 	}
