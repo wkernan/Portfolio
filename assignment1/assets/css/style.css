@@ -404,6 +404,14 @@ button:hover {
 		width: auto;
 		right: 170px;
 	}
+
+	input {
+		width: 96%;
+	}
+
+	textarea {
+		width: 96%;
+	}
 }
 
 @media screen and (max-width: 935px) {
