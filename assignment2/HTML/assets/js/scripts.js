@@ -17,7 +17,7 @@ $(document).ready(function() {
 	
 	$('#home').height($(window).height()+50);
 	
-	$.backstretch('assets/images/header-bg.jpg');
+	$.backstretch('assignment2/HTML/assets/images/header-bg.jpg');
 	
 	if($(window).scrollTop() > ($(window).height()+50)){
 		$('.backstretch').hide();
